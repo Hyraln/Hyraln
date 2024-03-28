@@ -11,6 +11,16 @@ package com.mycompany.belajar.java;
 public class BelajarJava {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        // TODO code application logic here
+        
+        int jarijari;
+        double keliling;
+        final double PI=3.14;
+        
+        jarijari = 30;
+        
+        keliling= 2*PI*jarijari;
+        System.out.println("Keliling Lingkaran = "+keliling);
+       System.out.println("=============================");
     }
 }
